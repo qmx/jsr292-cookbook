@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="lazy-init/classes" path="lazy-init/src"/>
+	<classpathentry kind="src" output="metaclass/classes" path="metaclass/src"/>
+	<classpathentry kind="src" output="visitor/classes" path="visitor/src"/>
+	<classpathentry kind="src" output="inlining-cache/classes" path="inlining-cache/src"/>
+	<classpathentry kind="src" output="memoize/classes" path="memoize/src"/>
+	<classpathentry kind="src" output="verified-entrypoint/classes" path="verified-entrypoint/src"/>
+	<classpathentry kind="src" output="multi-dispatch/classes" path="multi-dispatch/src"/>
+	<classpathentry kind="src" output="bimorphic-cache/classes" path="bimorphic-cache/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/asm-debug-all-4.0_RC1.jar" sourcepath="lib/src.zip"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>
