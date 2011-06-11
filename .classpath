@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="interceptors/classes" path="interceptors/src"/>
+	<classpathentry kind="src" output="binary-operation/classes" path="binary-operation/src"/>
 	<classpathentry kind="src" output="lazy-init/classes" path="lazy-init/src"/>
 	<classpathentry kind="src" output="metaclass/classes" path="metaclass/src"/>
 	<classpathentry kind="src" output="visitor/classes" path="visitor/src"/>
